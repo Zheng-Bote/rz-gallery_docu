@@ -12,8 +12,16 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 **Table of Contents**
+
+- [System Overview](#system-overview)
+  - [Ecosystem Components](#ecosystem-components)
+    - [1. Backend (`backend/services/`)](#1-backend-backendservices)
+    - [2. Frontend (`frontend/`)](#2-frontend-frontend)
+- [Repository Structure & Submodules](#repository-structure--submodules)
+- [Security & Access Control (RBAC)](#security--access-control-rbac)
+- [Data Schema](#data-schema)
+- [Diagramming Standards](#diagramming-standards)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
