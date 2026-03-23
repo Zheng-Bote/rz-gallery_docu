@@ -26,7 +26,7 @@ A distributed microservices photo gallery system with high-performance C++23 bac
 RZ-Gallery is a distributed, modular photo gallery system built with modern C++23
 microservices, a central API gateway, shared libraries, and a PostgreSQL database.
 
-This repository contains the **architecture documentation**, **C4 diagrams**, and
+This repository contains the **architecture documentation** and
 **cross-service specifications** for the entire system.
 
 ## Architecture Overview
@@ -90,7 +90,7 @@ The system currently includes:
 | Backend   | [Database Schema](https://github.com/Zheng-Bote/rz-gallery_db)                | Database for rz-gallery.                          |
 | Backend   | [Notification Service](https://github.com/Zheng-Bote/rz-gallery_notification) | Notification service for rz-gallery.              |
 | Backend   | [Logging Service](https://github.com/Zheng-Bote/rz-gallery_logging)           | Logging service for rz-gallery.                   |
-| Backend   | [auAuth Serviceth](https://github.com/Zheng-Bote/rz-gallery_auth)             | Authentication service for rz-gallery.            |
+| Backend   | [Auth Service](https://github.com/Zheng-Bote/rz-gallery_auth)                 | Authentication service for rz-gallery.            |
 
 ### Future services
 
