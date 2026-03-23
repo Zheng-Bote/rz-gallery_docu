@@ -8,6 +8,17 @@
 
 # Global Architecture - rz-gallery
 
+---
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+**Table of Contents**
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+---
+
 ## System Overview
 
 The **rz-gallery** project is a distributed photo gallery ecosystem, strictly divided into Backend services and Frontend clients. Each component exists in its own repository and is built independently.

@@ -10,7 +10,26 @@
 
 A distributed microservices photo gallery system with high-performance C++23 backends and multi-platform clients.
 
-## Architecture
+---
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+**Table of Contents**
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+---
+
+## Description
+
+RZ-Gallery is a distributed, modular photo gallery system built with modern C++23
+microservices, a central API gateway, shared libraries, and a PostgreSQL database.
+
+This repository contains the **architecture documentation**, **C4 diagrams**, and
+**cross-service specifications** for the entire system.
+
+## Architecture Overview
 
 ### Bounded Context
 
@@ -50,10 +69,61 @@ graph LR
     Auth & Notify & Log -- SQL --> DB
 ```
 
-## Documentation
+## 🧩 Microservices
 
-- Detailed specifications are located in the `docs/` directory (**rz-gallery-docs** repo).
+The system currently includes:
 
-## License
+- **API Gateway** (`rz-gallery_api-gw`)
+- **Auth Service** (`rz-gallery_auth`)
+- **Notification Service** (`rz-gallery_notification`)
+- **Logging Service** (`rz-gallery_logging`)
+- **Shared Library** (`rz-gallery_libs-common`)
+- **Database Schema** (`rz-gallery_db`)
 
-Apache-2.0 - Copyright (c) 2026 ZHENG Robert
+### Repositories
+
+| Component | Repository                                                                    | Description                                       |
+| --------- | ----------------------------------------------------------------------------- | ------------------------------------------------- |
+| Overall   | [Documentation](https://github.com/Zheng-Bote/rz-gallery_docs)                | Documentation for rz-gallery.                     |
+| Backend   | [API Gateway](https://github.com/Zheng-Bote/rz-gallery_api-gw)                | API Gateway and Dispatcher for the RZ-Gallery.    |
+| Backend   | [Shared Library](https://github.com/Zheng-Bote/rz-gallery_libs-common)        | Common libraries for rz-gallery backend services. |
+| Backend   | [Database Schema](https://github.com/Zheng-Bote/rz-gallery_db)                | Database for rz-gallery.                          |
+| Backend   | [Notification Service](https://github.com/Zheng-Bote/rz-gallery_notification) | Notification service for rz-gallery.              |
+| Backend   | [Logging Service](https://github.com/Zheng-Bote/rz-gallery_logging)           | Logging service for rz-gallery.                   |
+| Backend   | [auAuth Serviceth](https://github.com/Zheng-Bote/rz-gallery_auth)             | Authentication service for rz-gallery.            |
+
+### Future services
+
+- Upload Service
+- Metadata Service
+- Image Processing Service
+
+## 🚀 Goals
+
+- Modular, maintainable architecture
+- Clear service boundaries
+- Consistent communication patterns
+- Scalable deployment model
+- Strong documentation for onboarding and development
+
+---
+
+## 📜 License
+
+This project is licensed under the **Apache-2.0 License** - see the [LICENSE](LICENSE) file for details
+
+Copyright (c) 2026 ZHENG Robert
+
+## 🤝 Authors
+
+- [![Zheng Robert - Core Development](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
+
+### Code Contributors
+
+![Contributors](https://img.shields.io/github/contributors/Zheng-Bote/rz-gallery_docu?color=dark-green)
+
+[![Zheng Robert](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
+
+---
+
+Made with ❤️ and a lot of sugar. :vulcan_salute:

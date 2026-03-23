@@ -1,3 +1,4 @@
+<!-- DOCTOC SKIP -->
 <!--
   @file docs/build-and-run.md
   @brief Setup and execution instructions for the rz-gallery ecosystem.
