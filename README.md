@@ -14,8 +14,20 @@ A distributed microservices photo gallery system with high-performance C++23 bac
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 **Table of Contents**
+
+- [Description](#description)
+- [Architecture Overview](#architecture-overview)
+  - [Bounded Context](#bounded-context)
+  - [Ecosystem Overview](#ecosystem-overview)
+  - [System Diagram](#system-diagram)
+- [🧩 Microservices](#-microservices)
+  - [Repositories](#repositories)
+  - [Future services](#future-services)
+- [🚀 Goals](#-goals)
+- [📜 License](#-license)
+- [🤝 Authors](#-authors)
+  - [Code Contributors](#code-contributors)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
